@@ -1,6 +1,5 @@
 <script>
     import hero_image from "/howsa3.jpeg";
-    import hero_background from "/blob-scene-haikei1.svg";
 </script>
 
 <section class="padding16px even-coloumns ">
