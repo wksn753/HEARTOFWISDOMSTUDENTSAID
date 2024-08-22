@@ -4,19 +4,19 @@
     let name = '';
     let email = '';
     let message = '';
-    emailjs.init(import.meta.env.BASE_URL)
+    emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY)
+
     function sendEmail(event) {
       event.preventDefault();
   
       emailjs.send(
-        'your_service_id',  // Replace with your service ID
-        'your_template_id', // Replace with your template ID
+        'service_kbjw5e8',  // Replace with your service ID
+        'template_xz4z168', // Replace with your template ID
         {
           from_name: name,
           reply_to: email,
           message: message,
-        },
-        'your_user_id' // Replace with your user ID
+        }
       )
       .then(response => {
         console.log('Email sent successfully!', response.status, response.text);
@@ -27,6 +27,7 @@
         // Handle errors here
       });
     }
+    
   </script>
 
 <section class="padding16px">

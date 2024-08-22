@@ -6,7 +6,7 @@ import heroImage from "/howsa3.jpeg";
     import teamMember3 from "/team3.jpeg";
     import teamMember4 from "/team4.jpeg";
     import teamMember5 from "/team5.jpeg";
-    import teamMember6 from "/team6.jpeg";
+    import teamMember6 from "/team6.jpg";
     import teamMember7 from "/team7.jpeg";
 
     let showTeam = false;
