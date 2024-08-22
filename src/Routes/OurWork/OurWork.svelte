@@ -1,6 +1,6 @@
 <script>
     import OurProgramCard from "./componets/OurProgramCard.svelte";
-    import howsa1 from "/howsa1.jpeg";
+    import howsa1 from "/educationImage.jpeg";
     import howsa2 from "/howsa2.jpeg";
     import howsa3 from "/howsa3.jpeg";
 
