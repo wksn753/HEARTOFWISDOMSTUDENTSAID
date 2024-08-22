@@ -17,7 +17,7 @@
         </p>
         <p class="fw-bold">Support Our Mission Today!</p>
         <div class="herotext1"></div>
-        <button class="button">Donate</button>
+        <button class="button margin-1rem">Donate</button>
     </div>
     <div class="heroImage">
         <img src={hero_image} alt="" class="" />
@@ -25,6 +25,11 @@
 </section>
 
 <style>
+    @media(max-width:50em){
+        .margin-1rem{
+        margin-bottom: 1rem;
+    }
+    }
     .heroImage > img {
         border-radius: 1rem;
     }

@@ -4,7 +4,7 @@
     import missionImage from "/mission.svg";
     import visionImage from "/vision.svg";
     import valuesImage from "/values.svg";
-
+    import mottoImage from "/motto.svg";
 </script>
 
 <section class="padding16px about-section">
@@ -13,9 +13,10 @@
         <p class="herotext1">HEART OF WISDOM STUDENTS AID (HOWSA) UG LIMITED is a non-for-profit Christian-based charity in Uganda dedicated to supporting underprivileged school-going children. Our mission is to bridge the education gap and empower these children through financial assistance, educational resources, skill development, and moral guidance.</p>
     </div>
     <div class="even-coloumns wd-100">
-        <AboutUsCard image={missionImage} title="Mission Statement" text="To bridge the education gap and empower school going underprivileged children through financial assistance educational resources, skill development and moral guidance to enable them become responsible citizens that will better their communities with the principles of God."/>
-        <AboutUsCard image={visionImage} title="Vision" text="To bridge the education gap and empower underprivileged children acquire education through academic sponsorship, Advocacy, skilling, talent development, moral and spiritual guidance which will enable them become responsible citizens and to better their communities with the principles of God. o transform lives and societies through education and holistic development of underprivileged children and communities worldwide."/>
+        <AboutUsCard image={missionImage} title="Mission Statement" text="To bridge the education gap and empower underprivileged children acquire education through academic sponsorship, advocacy, skilling, talent development, moral and spiritual guidance which will enable them become respectful citizens and better their communities with the principles of God."/>
+        <AboutUsCard image={visionImage} title="Vision" text="To transform lives and societies through education and holistic development of underprivileged children and communities worldwide."/>
         <ObjectivesCard image={valuesImage}/>
+        <AboutUsCard image={mottoImage} title="Motto" text=" Teaching generations to profit (Isaiah 48:17)"/>
     </div>
     <div>
         <h3 class="fs-800 fw-bold">Our Objectives</h3>

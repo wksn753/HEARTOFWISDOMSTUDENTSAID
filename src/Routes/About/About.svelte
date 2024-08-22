@@ -8,14 +8,18 @@ import heroImage from "/howsa3.jpeg";
     import teamMember5 from "/team5.jpeg";
     import teamMember6 from "/team6.jpg";
     import teamMember7 from "/team7.jpeg";
+    import teamMember8 from "/founder.jpg";
+    import teamMember9 from "/admin.jpg";
+    import teamMember10 from "/boardmember.jpg";
+    import userPlaceHolder from "/placeholder.png";
 
     let showTeam = false;
     function onShowTeamClick(){
         showTeam = !showTeam;
     }
-    let minimizedTeam = [{"name": "Counsel Solomon Opolot","role":"Legal Advisor","image":teamMember1},{"name": "Ssebuyira Isaac kitiibwa","role":"Board Of Trustees","image":teamMember2},{"name": "Council Serwanga Alex","role":"Governance,HR,Legal,Policy Expert","image":teamMember3}]
+    let minimizedTeam = [{"name": "Kiyingi Fredrick","role":"Executive director & Founder","image":teamMember8},{"name": "Mwebaze Becky Mary","role":"Administration, Ethics & Integrity","image":teamMember9},{"name": "Council Serwanga Alex","role":"Governance,HR,Legal,Policy Expert","image":teamMember3}]
 
-    let maximizedTeam = [{"name": "Counsel Solomon Opolot","role":"Legal Advisor","image":teamMember1},{"name": "Ssebuyira Isaac kitiibwa","role":"Board Of Trustees","image":teamMember2},{"name": "Council Serwanga Alex","role":"Governance,HR,Legal,Policy Expert","image":teamMember3},{"name": "Mubiru Derrick","role":"Secretary","image":teamMember4},{"name": "Nwadde Jeoffrey","role":"Donor's relations, communication and data management specialist","image":teamMember5},{"name": "Nabbanja Racheal","role":"Child development, rights and well fare expert","image":teamMember6},{"name": "?","role":"?","image":teamMember7}]
+    let maximizedTeam = [{"name": "Kiyingi Fredrick","role":"Executive director & Founder","image":teamMember8},{"name": "Mwebaze Becky Mary","role":"Administration, Ethics & Integrity","image":teamMember9},{"name": "Council Serwanga Alex","role":"Governance,HR,Legal,Policy Expert","image":teamMember3},{"name": "Counsel Solomon Opolot","role":"Legal Advisor","image":teamMember1},{"name": "Ssebuyira Isaac kitiibwa","role":"Board Of Trustees","image":teamMember2},{"name": "Namugerwa Bridget","role":"Board Of Trustees","image":teamMember10},{"name": "Mubiru Derrick","role":"Secretary","image":teamMember4},{"name": "Nwadde Jeoffrey","role":"Donor's relations, communication and data management specialist","image":teamMember5},{"name": "Nabbanja Racheal","role":"Child development, rights and well fare expert","image":teamMember6},{"name": "Namutu Martha","role":"Education & Child Development Expert","image":teamMember7},{"name": "Kusiima Darlison","role":"Finance","image":userPlaceHolder}]
     $: team = showTeam ? maximizedTeam : minimizedTeam;
 </script>
 
