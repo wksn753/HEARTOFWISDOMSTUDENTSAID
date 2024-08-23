@@ -45,6 +45,19 @@
             <div class="padding16px">
                 <div>
                     <span class="material-symbols-outlined">pin_drop</span>
+                    <p class="fw-bold">Areas of operation</p>
+                </div>
+                <div><p class="fs-500">Where do we work from</p></div>
+                <div>
+                    <p class="fs-500">
+                        Kasese district, Mawokota south, butambala, Kampala, Eastern region, disaster affected and poverty stricken communities in Uganda.
+                    </p>
+                </div>
+            </div>
+
+            <div class="padding16px">
+                <div>
+                    <span class="material-symbols-outlined">pin_drop</span>
                     <p class="fw-bold">Visit us</p>
                 </div>
                 <div><p class="fs-500">Come say hello to our team</p></div>
