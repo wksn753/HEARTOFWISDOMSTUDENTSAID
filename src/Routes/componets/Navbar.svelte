@@ -20,7 +20,7 @@
     <div class="wd-100 padding16px">
         <div class="nav-wrapper">
             <Link to="/" class="nav-header nav-title"
-                ><img  class="logo" src={logo} alt="" width={35} height={35} />
+                ><img  class="logo" src={logo} alt="" width={50} height={50} />
                 <h1 class="fs-secondary-heading fw-bold">HEART OF WISDOM</h1></Link
             >
             <button

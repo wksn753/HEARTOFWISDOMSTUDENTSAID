@@ -2,7 +2,7 @@
     import hero_image from "/howsa3.jpeg";
 </script>
 
-<section class="padding16px even-coloumns ">
+<section class="padding16px even-coloumns herobackground">
     <div>
         <h2 class="fs-primary-heading fw-bold">
             Transforming Lives Through Education.
@@ -18,9 +18,6 @@
         <p class="fw-bold">Support Our Mission Today!</p>
         <div class="herotext1"></div>
         <button class="button margin-1rem">Donate</button>
-    </div>
-    <div class="heroImage">
-        <img src={hero_image} alt="" class="" />
     </div>
 </section>
 
@@ -47,5 +44,14 @@
         background-image: url("/sideBlob.svg");
         background-repeat: no-repeat;
         background-position: top left;
+    }
+    .herobackground{
+        padding-top: 12.5rem;
+        padding-bottom: 12.5rem;
+        background-color: #5a7c80;
+        color: white;
+        background-image: url("/howsa3.jpeg");
+        background-blend-mode: multiply ;
+        background-size: cover;
     }
 </style>

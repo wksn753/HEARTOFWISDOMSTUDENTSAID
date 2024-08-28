@@ -26,14 +26,14 @@
                 <div class="socialmedia d-f-r2">
                     <a
                         href="https://www.linkedin.com/company/heart-of-wisdom-students-aid-howsa-ug-limited/posts/?feedView=all&viewAsMember=true"
-                        ><img src={linkedIn} alt="" width={35} height={35} /></a
+                        ><img src={linkedIn} alt="" width={45} height={45} /></a
                     >
                     <a href="https://x.com/HOWSA_Ugltd"
-                        ><img src={x} alt="" width={35} height={35} /></a
+                        ><img src={x} alt="" width={45} height={45} /></a
                     >
                     <a
                         href="https://youtube.com/@heartofwisdomsa_ug?si=_pISMzHmdnD6fc3e"
-                        ><img src={yt} alt="" width={35} height={35} /></a
+                        ><img src={yt} alt="" width={45} height={45} /></a
                     >
                 </div>
             </div>
@@ -42,7 +42,7 @@
     <hr />
     <div class="sb-footer-below">
         <div class="sb-footer-copyright d-f-r">
-            <p>
+            <p class="white">
                 Copyright &copy;{new Date().getFullYear()} HOWSA LTD. All rights
                 reserved.
             </p>
@@ -51,6 +51,9 @@
 </footer>
 
 <style>
+    .white{
+        color: white;
+    }
     .sb-footer-links {
         justify-content: space-between;
         align-items: flex-start;

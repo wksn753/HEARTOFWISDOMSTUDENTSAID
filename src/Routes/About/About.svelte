@@ -11,7 +11,7 @@
     import teamMember8 from "/founder.jpg";
     import teamMember9 from "/admin.jpg";
     import teamMember10 from "/boardmember.jpg";
-    import userPlaceHolder from "/placeholder.png";
+    import teamMember11 from "/teamFinance2.jpeg";
     import eligible from "/Eligible.png";
     import services from "/services.png";
     import support from "/support.png";
@@ -74,7 +74,7 @@
         },
         { name: "Mubiru Derrick", role: "Secretary", image: teamMember4 },
         {
-            name: "Nwadde Jeoffrey",
+            name: "Nawede Geoffrey",
             role: "Donor's relations, communication and data management specialist",
             image: teamMember5,
         },
@@ -88,7 +88,7 @@
             role: "Education & Child Development Expert",
             image: teamMember7,
         },
-        { name: "Kusiima Darlison", role: "Finance", image: userPlaceHolder },
+        { name: "Kusiima Darlison", role: "Finance", image: teamMember11 },
     ];
     $: team = showTeam ? maximizedTeam : minimizedTeam;
 </script>
