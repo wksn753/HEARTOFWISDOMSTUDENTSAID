@@ -1,6 +1,6 @@
 <script>
     import TeamMember from "./componets/TeamMember.svelte";
-    import heroImage from "/wholeteam.jpeg";
+    import heroImage from "/photo.jpeg";
     import teamMember1 from "/team1.jpeg";
     import teamMember2 from "/team2.jpeg";
     import teamMember3 from "/team3.jpeg";
@@ -12,6 +12,8 @@
     import teamMember9 from "/admin.jpg";
     import teamMember10 from "/boardmember.jpg";
     import teamMember11 from "/teamFinance2.jpeg";
+    import teamMember12 from "/favour.jpeg";
+    import placeHolders from "/placeholder.png";
     import eligible from "/Eligible.png";
     import services from "/services.png";
     import support from "/support.png";
@@ -89,6 +91,21 @@
             image: teamMember7,
         },
         { name: "Kusiima Darlison", role: "Finance", image: teamMember11 },
+        {
+            name: "Baluku Joel",
+            role: "kasese regional coordinator",
+            image: placeHolders,
+        },
+        {
+            name: "Masereka Alfred",
+            role: "Community change agent kasese",
+            image: placeHolders,
+        },
+        {
+            name: "Nakiyemba Favour",
+            role: "Software Development",
+            image: teamMember12,
+        },
     ];
     $: team = showTeam ? maximizedTeam : minimizedTeam;
 </script>
@@ -100,8 +117,8 @@
             <p class="image-with-blob-bg">
                 HEART OF WISDOM STUDENTS AID (HOWSA) UG LIMITED is a dedicated
                 non-profit Christian-based charity located in Kampala, Uganda.
-                The company is as a result of the burden that God place on the heart
-                of Mr. Kiyingi Fredrick while he was still pursuing his
+                The company is as a result of the burden that God place on the
+                heart of Mr. Kiyingi Fredrick while he was still pursuing his
                 bachelor’s degree at Makerere University seeing many students
                 struggling with tuition while he was still at the university and
                 throughout his academic journey because he had also gone through
@@ -174,23 +191,40 @@
             {/if}
         </div>
     </div>
-    <div class="spacer">
-
-    </div>
+    <div class="spacer"></div>
     <div>
         <h3 class="fs-secondary-heading fw-bold">Frequently Asked Questions</h3>
         <div class="spacer">
-        <div class="even-coloumns">
-            <div>
-                <Faq svg ={eligible} question ="Who is eligible for the scholarship ?" answer="Orphans, pupils and students from poor background who are deprived of access to education, children with disabilities, school dropouts, organized marginalized community groups."/>
-                <div class="spacer">
-                <Faq svg ={join} question ="How can i become a beneficiary ?" answer="Through application and passing the eligibility criteria"/>
-                <div class="spacer">
-            </div>
-            <div>
-                <Faq svg ={support} question ="How can i support or be part of the organization ?" answer="You can partner with us through daily, weekly, monthly quaterly or anual suscription. You can donate cash or scholastic materials. Volunteering with us. Fund a child."/>
-                <div class="spacer">
-                <Faq svg ={services} question ="Why do we render our services ?" answer="To demonstarte Christ's value, care and love for children and the needy. To enable less advantaged and marginalized children atain their academic goals who will be change agents for their families and communities. To safeguard pupils and students against anything that may harm their physical, mental, academic and spiritaul wellbeing."/>
+            <div class="even-coloumns">
+                <div>
+                    <Faq
+                        svg={eligible}
+                        question="Who is eligible for the scholarship ?"
+                        answer="Orphans, pupils and students from poor background who are deprived of access to education, children with disabilities, school dropouts, organized marginalized community groups."
+                    />
+                    <div class="spacer">
+                        <Faq
+                            svg={join}
+                            question="How can i become a beneficiary ?"
+                            answer="Through application and passing the eligibility criteria"
+                        />
+                        <div class="spacer"></div>
+                        <div>
+                            <Faq
+                                svg={support}
+                                question="How can i support or be part of the organization ?"
+                                answer="You can partner with us through daily, weekly, monthly quaterly or anual suscription. You can donate cash or scholastic materials. Volunteering with us. Fund a child."
+                            />
+                            <div class="spacer">
+                                <Faq
+                                    svg={services}
+                                    question="Why do we render our services ?"
+                                    answer="To demonstarte Christ's value, care and love for children and the needy. To enable less advantaged and marginalized children atain their academic goals who will be change agents for their families and communities. To safeguard pupils and students against anything that may harm their physical, mental, academic and spiritaul wellbeing."
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -219,7 +253,7 @@
         background-repeat: no-repeat;
         background-position: top left;
     }
-    .spacer{
+    .spacer {
         margin-top: 1rem;
     }
 </style>
